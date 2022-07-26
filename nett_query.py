@@ -62,8 +62,7 @@ def get_intf_num():
         print("Invalid interface. Enter correct access port number.")
         print("\n")
         quit()
-    switch_stack_num = stack_intf_splitted[0]
-    switch_stack_num = int(switch_stack_num)
+    switch_stack_num = int(stack_intf_splitted[0])
     # print(f"switch_stack_num : {switch_stack_num}")
     intf_num = stack_intf_splitted[-1]
     # print(f"intf_num : {intf_num}")
